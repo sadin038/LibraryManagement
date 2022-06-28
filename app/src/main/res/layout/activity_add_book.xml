@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    tools:context=".AddBookActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp">
+
+        <TextView
+
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOK NAME: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/BookIdAddId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Book Id"
+            android:textSize="17sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp">
+
+        <TextView
+
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOK NAME: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/BookNameAddId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Book Name"
+            android:textSize="17sp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp">
+
+        <TextView
+
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WRITTER NAME: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/WritterNameAddId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Writter Name"
+            android:textSize="17sp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp">
+
+        <TextView
+
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATE: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/DateId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Date"
+            android:textSize="17sp"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/AddButtonId"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD BOOK"
+        android:textSize="25sp"
+        android:layout_marginTop="30sp"
+        />
+
+
+
+</LinearLayout>
